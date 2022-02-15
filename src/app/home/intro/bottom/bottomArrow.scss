@@ -1,0 +1,35 @@
+:root {
+  --arrow-height: 50px;
+  --arrow-color: rgb(100, 243, 43);
+}
+
+.introBottomSection {
+  position: absolute;
+  bottom: 0;
+
+  .arrowContainer {
+    width: 35px;
+    height:150px ;
+    // min-height: 500px;
+    // background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: baseline;
+    align-items: center;
+    justify-content: flex-end;
+
+    .oneArrowContainer {
+      //   height: 100px;
+      position: relative;
+      overflow: hidden;
+      transform: rotate(90deg);
+      color: #8383ff;
+
+      svg {
+        width: 100%;
+        height: auto;
+        color: inherit;
+      }
+    }
+  }
+}
